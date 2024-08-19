@@ -1,0 +1,159 @@
+{
+    "result": "OK",
+    "player_info": {
+        "name": "admin",
+        "rank": "F",
+        "energy": 50,
+        "crystal": 0,
+        "coin": 0,
+        "total_rank_point": 0,
+        "next_rank_point": 10,
+        "comment": "よろしくお願いします！",
+        "icon_id": 0,
+        "party_id": 0,
+        "has_character_ids": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "party_infos": [
+            {
+                "box_ids": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "box_ids": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ],
+        "progress_rates": [
+            {
+                "stage_id": 1,
+                "is_clear": 1,
+                "is_order": 1
+            },
+            {
+                "stage_id": 2,
+                "is_clear": 0,
+                "is_order": 1
+            },
+            {
+                "stage_id": 3,
+                "is_clear": 0,
+                "is_order": 1
+            },
+            {
+                "stage_id": 4,
+                "is_clear": 0,
+                "is_order": 1
+            }
+        ]
+    },
+    "character_masters": [
+        {
+            "id": 1,
+            "rank": "F",
+            "name": "剣士",
+            "name_id": "swordsman",
+            "hp": 100,
+            "atk_rate": null,
+            "physical_def": 1,
+            "magical_def": 1,
+            "weapon_ids": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "rank": "F",
+            "name": "戦士",
+            "name_id": "warrior",
+            "hp": 100,
+            "atk_rate": null,
+            "physical_def": 1,
+            "magical_def": 2,
+            "weapon_ids": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "rank": "F",
+            "name": "魔法使い",
+            "name_id": "wizard",
+            "hp": 100,
+            "atk_rate": null,
+            "physical_def": 2,
+            "magical_def": 1,
+            "weapon_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "id": 4,
+            "rank": "F",
+            "name": "僧侶",
+            "name_id": "priest",
+            "hp": 100,
+            "atk_rate": null,
+            "physical_def": 1,
+            "magical_def": 1,
+            "weapon_ids": [
+                4,
+                6
+            ]
+        }
+    ],
+    "stage_masters": [
+        {
+            "id": 1,
+            "name": "stage_001",
+            "note": "チュートリアル",
+            "use_energy": 0,
+            "coin": 0
+        },
+        {
+            "id": 2,
+            "name": "stage_002",
+            "note": "クエスト内容、ふざけた依頼",
+            "use_energy": 0,
+            "coin": 0
+        },
+        {
+            "id": 3,
+            "name": "stage_003",
+            "note": "クエスト内容、ふざけた依頼",
+            "use_energy": 0,
+            "coin": 0
+        },
+        {
+            "id": 4,
+            "name": "stage_004",
+            "note": "クエスト内容、ふざけた依頼",
+            "use_energy": 0,
+            "coin": 0
+        }
+    ]
+}

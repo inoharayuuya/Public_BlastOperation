@@ -1,0 +1,668 @@
+{
+    "result": "OK",
+    "player_info": {
+        "name": "admin",
+        "rank": "F",
+        "energy": 50,
+        "crystal": 0,
+        "coin": 0,
+        "total_rank_point": 0,
+        "next_rank_point": 10,
+        "comment": "よろしくお願いします！",
+        "icon_id": 0,
+        "party_infos": {
+            "box_id": [
+                1,
+                2,
+                3,
+                4,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "progress_rates": [
+            {
+                "id": 1,
+                "user_id": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                "stage_id": 1,
+                "is_clear": 0,
+                "is_order": 1,
+                "created_at": "2024-05-29T13:45:59.000000Z",
+                "updated_at": "2024-05-29T13:45:59.000000Z"
+            },
+            {
+                "id": 2,
+                "user_id": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                "stage_id": 2,
+                "is_clear": 0,
+                "is_order": 1,
+                "created_at": "2024-05-29T13:45:59.000000Z",
+                "updated_at": "2024-05-29T13:45:59.000000Z"
+            },
+            {
+                "id": 3,
+                "user_id": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                "stage_id": 3,
+                "is_clear": 0,
+                "is_order": 1,
+                "created_at": "2024-05-29T13:45:59.000000Z",
+                "updated_at": "2024-05-29T13:45:59.000000Z"
+            },
+            {
+                "id": 4,
+                "user_id": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                "stage_id": 4,
+                "is_clear": 0,
+                "is_order": 1,
+                "created_at": "2024-05-29T13:45:59.000000Z",
+                "updated_at": "2024-05-29T13:45:59.000000Z"
+            }
+        ],
+        "has_characters": [
+            {
+                "box_id": 1,
+                "id": 1
+            },
+            {
+                "box_id": 2,
+                "id": 2
+            },
+            {
+                "box_id": 3,
+                "id": 3
+            },
+            {
+                "box_id": 4,
+                "id": 4
+            }
+        ]
+    },
+    "character_masters": [
+        {
+            "id": 1,
+            "rank": "B",
+            "name": "character_001",
+            "hp": 100,
+            "atk_rate": "1.15",
+            "physical_def": 10,
+            "magical_def": 0,
+            "weapon_ids": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "rank": "B",
+            "name": "character_002",
+            "hp": 150,
+            "atk_rate": "1.00",
+            "physical_def": 15,
+            "magical_def": 5,
+            "weapon_ids": [
+                3,
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "rank": "B",
+            "name": "character_003",
+            "hp": 100,
+            "atk_rate": "1.05",
+            "physical_def": 10,
+            "magical_def": 5,
+            "weapon_ids": [
+                5,
+                6
+            ]
+        },
+        {
+            "id": 4,
+            "rank": "B",
+            "name": "character_004",
+            "hp": 90,
+            "atk_rate": "10.20",
+            "physical_def": 5,
+            "magical_def": 5,
+            "weapon_ids": [
+                7,
+                8
+            ]
+        }
+    ],
+    "weapon_masters": [
+        {
+            "id": 1,
+            "name": "weapon_001",
+            "attr": "物理",
+            "atk": "10.00",
+            "speed": 20,
+            "special_effect_id": 0
+        },
+        {
+            "id": 2,
+            "name": "weapon_002",
+            "attr": "物理",
+            "atk": "15.00",
+            "speed": 15,
+            "special_effect_id": 0
+        },
+        {
+            "id": 3,
+            "name": "weapon_003",
+            "attr": "魔法",
+            "atk": "15.00",
+            "speed": 30,
+            "special_effect_id": 0
+        },
+        {
+            "id": 4,
+            "name": "weapon_004",
+            "attr": "物理",
+            "atk": "10.00",
+            "speed": 25,
+            "special_effect_id": 0
+        },
+        {
+            "id": 5,
+            "name": "weapon_005",
+            "attr": "回復",
+            "atk": "10.00",
+            "speed": 10,
+            "special_effect_id": 0
+        },
+        {
+            "id": 6,
+            "name": "weapon_006",
+            "attr": "魔法",
+            "atk": "10.00",
+            "speed": 25,
+            "special_effect_id": 0
+        },
+        {
+            "id": 7,
+            "name": "weapon_007",
+            "attr": "魔法",
+            "atk": "20.00",
+            "speed": 20,
+            "special_effect_id": 0
+        },
+        {
+            "id": 8,
+            "name": "weapon_008",
+            "attr": "魔法",
+            "atk": "15.00",
+            "speed": 35,
+            "special_effect_id": 0
+        }
+    ],
+    "enemy_masters": [
+        {
+            "id": 1,
+            "name": "enemy_001",
+            "hp": 100,
+            "atk_pattern_ids": [
+                1
+            ],
+            "weak": "物理"
+        },
+        {
+            "id": 2,
+            "name": "enemy_002",
+            "hp": 100,
+            "atk_pattern_ids": [
+                2,3
+            ],
+            "weak": "魔法"
+        },
+        {
+            "id": 3,
+            "name": "enemy_003",
+            "hp": 100,
+            "atk_pattern_ids": [
+                4,5
+            ],
+            "weak": "物理"
+        },
+        {
+            "id": 4,
+            "name": "enemy_004",
+            "hp": 500,
+            "atk_pattern_ids": [
+                6,7
+            ],
+            "weak": "物理"
+        },
+        {
+            "id": 5,
+            "name": "enemy_005",
+            "hp": 100,
+            "atk_pattern_ids": [
+                9,10,11
+            ],
+            "weak": "魔法"
+        },
+        {
+            "id": 6,
+            "name": "enemy_006",
+            "hp": 20,
+            "atk_pattern_ids": [
+                2.3
+            ],
+            "weak": "魔法"
+        }
+    ],
+    "stage_masters": [
+        {
+            "id": 1,
+            "name": "stage_001",
+            "note": "チュートリアル",
+            "consume_energy": 0,
+            "rank_point": 10,
+            "coin": 0,
+            "enemy_infos": [
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "3.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "1.00",
+                        "y": "3.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "-0.30",
+                        "y": "-1.30",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.05"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "-0.30",
+                        "y": "-2.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.10",
+                    "hp_rate": "1.10",
+                    "size": "1.00"
+                },
+                {
+                    "id": 3,
+                    "position": {
+                        "x": "1.30",
+                        "y": "4.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.50"
+                },
+                {
+                    "id": 4,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 4,
+                    "is_boss": 1,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "2.00"
+                }
+            ],
+            "max_floor": 4
+        },
+        {
+            "id": 2,
+            "name": "stage_002",
+            "note": "クエスト内容、ふざけた依頼",
+            "consume_energy": 0,
+            "rank_point": 20,
+            "coin": 0,
+            "enemy_infos": [
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "10.00",
+                        "y": "5.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "5.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.05"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "20.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.10",
+                    "hp_rate": "1.10",
+                    "size": "1.00"
+                },
+                {
+                    "id": 3,
+                    "position": {
+                        "x": "10.00",
+                        "y": "20.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.50"
+                },
+                {
+                    "id": 4,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 4,
+                    "is_boss": 1,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "2.00"
+                }
+            ],
+            "max_floor": 5
+        },
+        {
+            "id": 3,
+            "name": "stage_003",
+            "note": "クエスト内容、ふざけた依頼",
+            "consume_energy": 0,
+            "rank_point": 20,
+            "coin": 0,
+            "enemy_infos": [
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "10.00",
+                        "y": "5.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "5.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.05"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "20.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.10",
+                    "hp_rate": "1.10",
+                    "size": "1.00"
+                },
+                {
+                    "id": 3,
+                    "position": {
+                        "x": "10.00",
+                        "y": "20.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.50"
+                },
+                {
+                    "id": 4,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 4,
+                    "is_boss": 1,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "2.00"
+                }
+            ],
+            "max_floor": 3
+        },
+        {
+            "id": 4,
+            "name": "stage_004",
+            "note": "クエスト内容、ふざけた依頼",
+            "consume_energy": 0,
+            "rank_point": 20,
+            "coin": 0,
+            "enemy_infos": [
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "10.00",
+                        "y": "5.00",
+                        "z": "0.00"
+                    },
+                    "floor": 1,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.00"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "5.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.00"
+                },
+                {
+                    "id": 2,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 2,
+                    "is_boss": 0,
+                    "atk_rate": "1.05",
+                    "hp_rate": "1.05",
+                    "size": "1.05"
+                },
+                {
+                    "id": 1,
+                    "position": {
+                        "x": "20.00",
+                        "y": "10.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.10",
+                    "hp_rate": "1.10",
+                    "size": "1.00"
+                },
+                {
+                    "id": 3,
+                    "position": {
+                        "x": "10.00",
+                        "y": "20.00",
+                        "z": "0.00"
+                    },
+                    "floor": 3,
+                    "is_boss": 0,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "1.50"
+                },
+                {
+                    "id": 4,
+                    "position": {
+                        "x": "0.00",
+                        "y": "0.00",
+                        "z": "0.00"
+                    },
+                    "floor": 4,
+                    "is_boss": 1,
+                    "atk_rate": "1.00",
+                    "hp_rate": "1.00",
+                    "size": "2.00"
+                }
+            ],
+            "max_floor": 6
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+	"result": "OK",
+	"character_ids": [
+		5
+	],
+	"player_info": {
+		"crystal": -75,
+		"has_characters": [
+			{
+				"box_id": 145,
+				"id": 5
+			},
+			{
+				"box_id": 146,
+				"id": 5
+			},
+			{
+				"box_id": 147,
+				"id": 6
+			},
+			{
+				"box_id": 148,
+				"id": 6
+			},
+			{
+				"box_id": 149,
+				"id": 7
+			},
+			{
+				"box_id": 150,
+				"id": 7
+			},
+			{
+				"box_id": 151,
+				"id": 8
+			},
+			{
+				"box_id": 152,
+				"id": 8
+			},
+			{
+				"box_id": 153,
+				"id": 9
+			},
+			{
+				"box_id": 154,
+				"id": 10
+			}
+		]
+	},
+	"character_masters": [
+		{
+			"id": 5,
+			"rank": "B",
+			"name": "聖騎士",
+			"name_id": "holy_knight",
+			"hp": 200,
+			"atk": "20.00",
+			"speed": "20.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				2,
+				6
+			]
+		},
+		{
+			"id": 6,
+			"rank": "B",
+			"name": "見習い魔獣使い",
+			"name_id": "elem_beast_tamer",
+			"hp": 100,
+			"atk": "15.00",
+			"speed": "15.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				7,
+				8
+			]
+		},
+		{
+			"id": 7,
+			"rank": "B",
+			"name": "侍",
+			"name_id": "samurai",
+			"hp": 200,
+			"atk": "30.00",
+			"speed": "25.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				9,
+				10
+			]
+		},
+		{
+			"id": 8,
+			"rank": "A",
+			"name": "上級魔獣使い",
+			"name_id": "advanced_beast_tamer",
+			"hp": 150,
+			"atk": "20.00",
+			"speed": "20.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				11,
+				8
+			]
+		},
+		{
+			"id": 9,
+			"rank": "A",
+			"name": "賢者",
+			"name_id": "wise_man",
+			"hp": 80,
+			"atk": "40.00",
+			"speed": "10.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				12,
+				6
+			]
+		},
+		{
+			"id": 10,
+			"rank": "S",
+			"name": "ドラゴンスレイヤー",
+			"name_id": "dragon_slayer",
+			"hp": 200,
+			"atk": "20.00",
+			"speed": "20.00",
+			"physical_def": 1,
+			"magical_def": 1,
+			"weapon_ids": [
+				13,
+				14
+			]
+		}
+	],
+	"weapon_masters": [
+		{
+			"id": 2,
+			"name": "剣2",
+			"attr": "物理",
+			"atk_rate": "1.08",
+			"speed_rate": "0.93",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 6,
+			"name": "本",
+			"attr": "回復",
+			"atk_rate": "1.15",
+			"speed_rate": "0.85",
+			"range": "遠距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 7,
+			"name": "スライム：突進",
+			"attr": "物理",
+			"atk_rate": "1.03",
+			"speed_rate": "0.95",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 8,
+			"name": "子ドラゴン：炎",
+			"attr": "魔法",
+			"atk_rate": "1.15",
+			"speed_rate": "0.83",
+			"range": "遠距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 9,
+			"name": "太刀",
+			"attr": "物理",
+			"atk_rate": "1.08",
+			"speed_rate": "0.95",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 10,
+			"name": "短刀",
+			"attr": "物理",
+			"atk_rate": "1.00",
+			"speed_rate": "1.10",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 11,
+			"name": "ゴーレム：突進",
+			"attr": "物理",
+			"atk_rate": "1.23",
+			"speed_rate": "0.80",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 8,
+			"name": "子ドラゴン：炎",
+			"attr": "魔法",
+			"atk_rate": "1.15",
+			"speed_rate": "0.83",
+			"range": "遠距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 12,
+			"name": "杖3",
+			"attr": "魔法",
+			"atk_rate": "1.20",
+			"speed_rate": "0.93",
+			"range": "遠距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 6,
+			"name": "本",
+			"attr": "回復",
+			"atk_rate": "1.15",
+			"speed_rate": "0.85",
+			"range": "遠距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 13,
+			"name": "アスカロン",
+			"attr": "物理",
+			"atk_rate": "1.70",
+			"speed_rate": "0.88",
+			"range": "近距離",
+			"special_effect_id": 0
+		},
+		{
+			"id": 14,
+			"name": "グラム",
+			"attr": "魔法",
+			"atk_rate": "1.53",
+			"speed_rate": "1.05",
+			"range": "近距離",
+			"special_effect_id": 0
+		}
+	]
+}

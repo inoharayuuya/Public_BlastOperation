@@ -1,0 +1,37 @@
+{
+    "result": "OK",
+    "limit_rank_points": [
+        10,
+        100,
+        500,
+        1000,
+        2000,
+        10000,
+        0
+    ],
+    "player_info": {
+        "rank": "E",
+        "energy": 50,
+        "total_rank_point": 10,
+        "next_rank_point": 100,
+        "coin": 0,
+        "crystal": 10,
+        "progress_rates": [
+            {
+                "stage_id": 1,
+                "is_clear": 1,
+                "is_order": 1
+            },
+            {
+                "stage_id": 2,
+                "is_clear": 0,
+                "is_order": 1
+            },
+            {
+                "stage_id": 3,
+                "is_clear": 0,
+                "is_order": 1
+            }
+        ]
+    }
+}

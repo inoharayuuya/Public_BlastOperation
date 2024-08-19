@@ -1,0 +1,256 @@
+{
+    "result": "OK",
+    "stage_master": {
+        "id": 1,
+        "name": "stage_001",
+        "note": "ステージ1",
+        "use_energy": 0,
+        "rank_point": 10,
+        "coin": 0,
+        "crystal": 10,
+        "enemy_infos": [
+            {
+                "id": 1,
+                "position": {
+                    "x": "0.00",
+                    "y": "0.00",
+                    "z": "0.00"
+                },
+                "floor": 1,
+                "is_boss": 0,
+                "atk_rate": "1.00",
+                "hp_rate": "1.00",
+                "size": "1.00"
+            },
+            {
+                "id": 2,
+                "position": {
+                    "x": "0.60",
+                    "y": "2.50",
+                    "z": "0.00"
+                },
+                "floor": 1,
+                "is_boss": 0,
+                "atk_rate": "1.00",
+                "hp_rate": "1.00",
+                "size": "1.00"
+            },
+            {
+                "id": 3,
+                "position": {
+                    "x": "-1.20",
+                    "y": "1.00",
+                    "z": "0.00"
+                },
+                "floor": 2,
+                "is_boss": 0,
+                "atk_rate": "1.05",
+                "hp_rate": "1.05",
+                "size": "1.00"
+            },
+            {
+                "id": 2,
+                "position": {
+                    "x": "0.00",
+                    "y": "0.00",
+                    "z": "0.00"
+                },
+                "floor": 2,
+                "is_boss": 0,
+                "atk_rate": "1.05",
+                "hp_rate": "1.05",
+                "size": "1.05"
+            },
+            {
+                "id": 2,
+                "position": {
+                    "x": "0.00",
+                    "y": "-1.00",
+                    "z": "0.00"
+                },
+                "floor": 3,
+                "is_boss": 0,
+                "atk_rate": "1.10",
+                "hp_rate": "1.10",
+                "size": "1.00"
+            },
+            {
+                "id": 3,
+                "position": {
+                    "x": "1.40",
+                    "y": "3.20",
+                    "z": "0.00"
+                },
+                "floor": 3,
+                "is_boss": 0,
+                "atk_rate": "1.00",
+                "hp_rate": "1.00",
+                "size": "1.50"
+            },
+            {
+                "id": 4,
+                "position": {
+                    "x": "0.00",
+                    "y": "0.00",
+                    "z": "0.00"
+                },
+                "floor": 4,
+                "is_boss": 1,
+                "atk_rate": "1.00",
+                "hp_rate": "1.00",
+                "size": "2.00"
+            }
+        ],
+        "max_floor": 4
+    },
+    "enemy_masters": [
+        {
+            "id": 1,
+            "name": "スライム",
+            "hp": "100.00",
+            "atk": "10.00",
+            "def": "1.00",
+            "atk_pattern_ids": [
+                1
+            ],
+            "weak": "魔法"
+        },
+        {
+            "id": 2,
+            "name": "魔法使い",
+            "hp": "200.00",
+            "atk": "20.00",
+            "def": "5.00",
+            "atk_pattern_ids": [
+                9,
+                10,
+                11
+            ],
+            "weak": "物理"
+        },
+        {
+            "id": 3,
+            "name": "盗賊",
+            "hp": "150.00",
+            "atk": "15.00",
+            "def": "2.50",
+            "atk_pattern_ids": [
+                2,
+                3
+            ],
+            "weak": "魔法"
+        },
+        {
+            "id": 4,
+            "name": "ボス盗賊",
+            "hp": "500.00",
+            "atk": "30.00",
+            "def": "5.00",
+            "atk_pattern_ids": [
+                2,
+                3
+            ],
+            "weak": "魔法"
+        }
+    ],
+    "enemy_atk_masters": [
+        {
+            "atk_rate": "1.10",
+            "atk_attr": "魔法",
+            "atk_area_id": 1,
+            "atk_id": 1
+        },
+        {
+            "atk_rate": "1.35",
+            "atk_attr": "回復",
+            "atk_area_id": 0,
+            "atk_id": 9
+        },
+        {
+            "atk_rate": "1.15",
+            "atk_attr": "回復",
+            "atk_area_id": 0,
+            "atk_id": 10
+        },
+        {
+            "atk_rate": "1.55",
+            "atk_attr": "魔法",
+            "atk_area_id": 4,
+            "atk_id": 11
+        },
+        {
+            "atk_rate": "1.85",
+            "atk_attr": "物理",
+            "atk_area_id": 2,
+            "atk_id": 2
+        },
+        {
+            "atk_rate": "1.35",
+            "atk_attr": "物理",
+            "atk_area_id": 3,
+            "atk_id": 3
+        }
+    ],
+    "weapon_masters": [
+        {
+            "id": 1,
+            "name": "剣1",
+            "name_id": "sword_1",
+            "attr": "物理",
+            "atk_rate": "1.05",
+            "speed_rate": "1.05",
+            "range": "近距離",
+            "special_effect_id": 0
+        },
+        {
+            "id": 2,
+            "name": "剣2",
+            "name_id": "sword_2",
+            "attr": "物理",
+            "atk_rate": "1.08",
+            "speed_rate": "0.93",
+            "range": "近距離",
+            "special_effect_id": 0
+        },
+        {
+            "id": 3,
+            "name": "斧",
+            "name_id": "axe_1",
+            "attr": "物理",
+            "atk_rate": "1.10",
+            "speed_rate": "0.85",
+            "range": "近距離",
+            "special_effect_id": 0
+        },
+        {
+            "id": 4,
+            "name": "杖1",
+            "name_id": "rod_1",
+            "attr": "魔法",
+            "atk_rate": "1.03",
+            "speed_rate": "1.00",
+            "range": "遠距離",
+            "special_effect_id": 0
+        },
+        {
+            "id": 5,
+            "name": "杖2",
+            "name_id": "rod_2",
+            "attr": "魔法",
+            "atk_rate": "1.13",
+            "speed_rate": "0.90",
+            "range": "遠距離",
+            "special_effect_id": 0
+        },
+        {
+            "id": 6,
+            "name": "本",
+            "name_id": "grimoire_1",
+            "attr": "回復",
+            "atk_rate": "1.15",
+            "speed_rate": "0.85",
+            "range": "遠距離",
+            "special_effect_id": 0
+        }
+    ]
+}
