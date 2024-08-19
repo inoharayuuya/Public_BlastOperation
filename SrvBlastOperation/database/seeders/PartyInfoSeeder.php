@@ -1,0 +1,44 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class PartyInfoSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('party_infos')->insert([
+            [
+                'user_id' => "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                'party_id' => 1,
+                'created_at' => DB::raw('NOW()'),
+                'updated_at' => DB::raw('NOW()'),
+            ],
+            [
+                'user_id' => "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+                'party_id' => 2,
+                'created_at' => DB::raw('NOW()'),
+                'updated_at' => DB::raw('NOW()'),
+            ],
+            [
+                'user_id' => "9f77e4bd38f2520954cef862f98c9780c987af4708bb1131c0f2d719ea23d581",
+                'party_id' => 1,
+                'created_at' => DB::raw('NOW()'),
+                'updated_at' => DB::raw('NOW()'),
+            ],
+            [
+                'user_id' => "9f77e4bd38f2520954cef862f98c9780c987af4708bb1131c0f2d719ea23d581",
+                'party_id' => 2,
+                'created_at' => DB::raw('NOW()'),
+                'updated_at' => DB::raw('NOW()'),
+            ],
+        ]);
+    }
+}
